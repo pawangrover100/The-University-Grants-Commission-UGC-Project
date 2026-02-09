@@ -2,6 +2,10 @@ import React from "react";
 import ugcLogo from "../../image/ugc_logo (1).png";
 import MHRD from "../../image/MHRD_logo.png";
 import G20 from "../../image/G20_India_Logo.png";
+
+
+
+
 function Navbar_sub() {
   return (
     <>
