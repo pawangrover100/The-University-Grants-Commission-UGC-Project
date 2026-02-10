@@ -25,11 +25,11 @@ function Carousel() {
           </div>
 
           <div>
-            <img src={Slider2} alt="" />
+            <img src={Slider2} alt="remove in folder" />
           </div>
 
           <div>
-            <img src={Slider3} alt="" />
+            <img src={Slider3} alt="remove in floder" />
           </div>
         </Slider>
       </div>

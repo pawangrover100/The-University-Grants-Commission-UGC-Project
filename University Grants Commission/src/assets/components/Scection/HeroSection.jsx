@@ -13,7 +13,7 @@ import AboutDropdwon from "../Dropdwon/AboutDropdwon";
 function HeroSection() {
   return (
     <>
-      <div className="mas=w-full h-12.75  border-solid bg-orange-500 flex box-border">
+      <div className="mas=w-full h-12.75 mt-1.5 border-solid bg-orange-500 flex box-border">
         <ul className="list-none flex  justify-center items-center mx-auto ">
           <li>
             <a
