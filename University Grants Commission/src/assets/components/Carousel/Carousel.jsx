@@ -15,21 +15,21 @@ function Carousel() {
   };
   return (
     <>
-      <div className="slider-container  
+      <div className="w-full max-w-full overflow-x-hidden
  ">
-        <Slider {...settings}>
+        <Slider {...settings} className="">
           <div>
-            <video autoPlay muted loop >
+            <video autoPlay muted loop className="w-full h-[500px] object-cover block" >
               <source src={Video} type="video/mp4" />
             </video>
           </div>
 
           <div>
-            <img src={Slider2} alt="remove in folder" />
+           <img src={Slider2} className="w-full h-[500px] object-cover block"/>
           </div>
 
           <div>
-            <img src={Slider3} alt="remove in floder" />
+            <img src={Slider3} className="w-full h-[500px] object-cover block" />
           </div>
         </Slider>
       </div>

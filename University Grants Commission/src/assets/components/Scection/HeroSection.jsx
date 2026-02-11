@@ -9,6 +9,7 @@ import { AiTwotoneBank } from "react-icons/ai";
 import { IoMdArrowDropdown } from "react-icons/io";
 import Carousel from "../Carousel/Carousel";
 import AboutDropdwon from "../Dropdwon/AboutDropdwon";
+import AboutSection from "./AboutSection";
 
 function HeroSection() {
   return (
@@ -32,9 +33,7 @@ function HeroSection() {
               <IoInformationCircle className="mt-1 text-[17px] pr-0.5" />
               <h6>About us</h6>
               <IoMdArrowDropdown className="mt-1.5 text-[20px] pr-0.5" />
-              
             </a>
-           
           </li>
           <li>
             <a
@@ -121,6 +120,9 @@ function HeroSection() {
         veniam necessitatibus iusto nam? Consequuntur labore minus nihil
         voluptatibus qui cum totam eaque magnam?
       </marquee>
+      <>
+      <AboutSection />
+      </>
     </>
   );
 }
