@@ -1,5 +1,10 @@
 import React from "react";
 import AboutImage from "../../image/AboutImage.jpg";
+import AboutSectionButton from "../Button/AboutSectionButton";
+
+
+
+
 function AboutSection() {
   return (
     <>
@@ -16,7 +21,7 @@ function AboutSection() {
           </a>
         </li>
 
-       <li className="max-w-full mt-[40px]  h-[140px] text-left">
+       <li className="max-w-full mt-[40px]  h-[160px] text-left">
   <a href="#" className="block max-w-[1180px] mx-auto px-4">
     <h1 className="text-[29px] pt text-[#3E4C66] font-bold">
       <span className="text-orange-500">About </span>
@@ -30,8 +35,18 @@ function AboutSection() {
       coordination, determination and maintenance of standards of
       teaching, examination and research in university education. 
     </p>
+  
   </a>
+
 </li>
+
+<li className="...">
+  <div className="block max-w-[1180px] mx-auto px-4">
+   
+    <AboutSectionButton />
+  </div>
+</li>
+
 
       </ul>
     </>
