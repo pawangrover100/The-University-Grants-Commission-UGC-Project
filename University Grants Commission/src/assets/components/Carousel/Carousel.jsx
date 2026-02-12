@@ -19,17 +19,17 @@ function Carousel() {
  ">
         <Slider {...settings} className="">
           <div>
-            <video autoPlay muted loop className="w-full h-[500px] object-cover block" >
+            <video autoPlay muted loop className="w-full h-125 object-cover block" >
               <source src={Video} type="video/mp4" />
             </video>
           </div>
 
           <div>
-           <img src={Slider2} className="w-full h-[500px] object-cover block"/>
+           <img src={Slider2} className="w-full h-125 object-cover block"/>
           </div>
 
           <div>
-            <img src={Slider3} className="w-full h-[500px] object-cover block" />
+            <img src={Slider3} className="w-full h-125 object-cover block" />
           </div>
         </Slider>
       </div>

@@ -19,7 +19,7 @@ function AboutSection() {
               className="m-auto"
             />
           </a>
-        </li>
+        </li> 
 
        <li className="max-w-full mt-[40px]  h-[160px] text-left">
   <a href="#" className="block max-w-[1180px] mx-auto px-4">
