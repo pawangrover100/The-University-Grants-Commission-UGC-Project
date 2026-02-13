@@ -1,6 +1,7 @@
 import React from "react";
 import AboutImage from "../../image/AboutImage.jpg";
 import AboutSectionButton from "../Button/AboutSectionButton";
+import SectionCards from "./SectionCards";
 
 
 
@@ -44,6 +45,7 @@ function AboutSection() {
   <div className="block max-w-[1180px] mx-auto px-4">
    
     <AboutSectionButton />
+    <SectionCards/>
   </div>
 </li>
 
