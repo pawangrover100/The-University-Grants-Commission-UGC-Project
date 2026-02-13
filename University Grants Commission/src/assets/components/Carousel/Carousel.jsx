@@ -25,7 +25,7 @@ function Carousel() {
           </div>
 
           <div>
-           <img src={Slider2} className="w-full h-125 object-cover block"/>
+           <img src={Slider2} className="w-full h-125 ~ object-cover block"/>
           </div>
 
           <div>
